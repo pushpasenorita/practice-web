@@ -1,7 +1,84 @@
-<style>
-{
-    background-image: url(/assets/banner-image.jpg);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 1 . header section 
+   2. details section 
+   3.nav section
+   */
+/*header section starts*/
+:root{
+    --main-color:#32b67a
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: var(--main-color);
+}
+.icons{
+  
+   gap: 50px;
+   padding: 0px 12px;
+   color: #fff;
+}
+.search{
+    cursor: pointer;
+    color: #fff;
+    border: 1px dashed #fff;
+    border-radius: 2px;
+    padding: 2px 1px;
+}
+/*header section ends*/
 
-    }
-</style>
-
+/*details section starts*/
+.details{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 120px;
+}
+.detailslogo{
+    display: flex;
+}
+.title{
+    text-align: justify;
+    transform: matrix(1 , 0, 0, 1, 12, 45);
+}
+.title h2{
+    font-size:30px;
+    font-weight: 700;
+}
+.title h5{
+    font: oblique;
+    font-size: 15px ;
+    font-weight: 400;
+}
+.title2{
+    transform: matrix(1 , 0, 0, 1, 0, 15);
+}
+.title2 h5{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: gray;
+}
+.title2 a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--main-color);
+    font-style:inherit;
+}
+/*details section ends*/
+/*nav sec starts */
+.list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+    padding: 0px 70px;
+    
+}
+/*nav sec ends */
