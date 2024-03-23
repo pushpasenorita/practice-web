@@ -9,12 +9,12 @@
    */
 /*header section starts*/
 :root{
-    --main-color:#32b67a
+    --main-color:#32b67a;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 12px 80px;
     background-color: var(--main-color);
 }
 .icons{
@@ -24,15 +24,20 @@
    color: #fff;
 }
 .search{
-    cursor: pointer;
     color: #fff;
-    border: 1px dashed #fff;
+}
+.search:hover{
+    cursor: pointer;
+    border: 0.5px dashed #fff;
     border-radius: 2px;
-    padding: 2px 1px;
+    padding: 0.5px 0.5px;
 }
 /*header section ends*/
 
 /*details section starts*/
+.details-sec{
+    border-bottom: 1px solid#00000050;
+}
 .details{
     display: flex;
     justify-content: space-between;
@@ -59,26 +64,95 @@
     transform: matrix(1 , 0, 0, 1, 0, 15);
 }
 .title2 h5{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     color: gray;
+    text-align: center;
+    padding-left: 60px;
 }
 .title2 a{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     color: var(--main-color);
     font-style:inherit;
+    padding-left: 35px;
 }
 /*details section ends*/
 /*nav sec starts */
 .list{
+
+    margin-top:2px;
     display: flex;
-    list-style: none;
-    gap: 50px;
-    text-decoration: none;
-    padding: 0px 70px;
-    
+    padding: 22px 40px;
+
 }
+.list a{
+    list-style: none;
+    gap: 10px;
+    padding: 70px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.bg-image {
+    background-image: url(/assets/banner-image.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.bg-image h2{
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+
+}
+.bg-image h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    column-gap: 20px;
+ 
+}
+.banner-con{
+    padding-top: 140px;
+}
+.search-bar{
+    border: 1px solid #ffffff40;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+    color: #ffffff40;
+    background-color:  #ffffff40;
+
+
+}
+.search-bar2:hover{
+    cursor: pointer;
+}
+}
+.search-bar1{
+    padding: 15px 22px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #ffffff;
+    margin-top: 20px;
+    color: #fff;
+}
+.search-bar2{
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 150;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+
 /*nav sec ends */
