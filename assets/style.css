@@ -11,6 +11,9 @@
 :root{
     --main-color:#32b67a;
 }
+li{
+    list-style: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -49,7 +52,7 @@
 }
 .title{
     text-align: justify;
-    transform: matrix(1 , 0, 0, 1, 12, 45);
+  /*  transform: matrix(1 , 0, 0, 1, 12, 45);*/
 }
 .title h2{
     font-size:30px;
@@ -61,7 +64,7 @@
     font-weight: 400;
 }
 .title2{
-    transform: matrix(1 , 0, 0, 1, 0, 15);
+   /* transform: matrix(1 , 0, 0, 1, 0, 15);*/
 }
 .title2 h5{
     font-size: 15px;
@@ -81,6 +84,7 @@
 }
 /*details section ends*/
 /*nav sec starts */
+
 .list{
 
     margin-top:2px;
@@ -89,7 +93,6 @@
 
 }
 .list a{
-    list-style: none;
     gap: 10px;
     padding: 70px 40px;
     text-transform: uppercase;
@@ -123,7 +126,7 @@
     border: 1px solid #ffffff40;
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     position: relative;
     margin-top: 30px;
@@ -135,7 +138,6 @@
 .search-bar2:hover{
     cursor: pointer;
 }
-}
 .search-bar1{
     padding: 15px 22px;
     border-radius: 10px;
@@ -143,6 +145,7 @@
     background-color: #ffffff;
     margin-top: 20px;
     color: #fff;
+    width: 75%;
 }
 .search-bar2{
     background-color: var(--main-color);
